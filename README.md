@@ -79,3 +79,21 @@ sudo mv apache-maven-3.9.9 /opt/maven
 PATH="/opt/maven/bin:$PATH" # add to your ~/.profile
 mvn --version # check installation
 ```
+
+## X-Server
+
+```powershell
+winget install marha.VcXsrv
+```
+
+## IntelliJ IDEA
+
+```bash
+wget https://download.jetbrains.com/idea/ideaIU-2024.3.tar.gz
+tar -xzvf ideaIU-2024.3.tar.gz
+```
+
+```bash
+cd idea-IU-243.21565.193/bin
+./idea.sh
+```
