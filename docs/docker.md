@@ -9,7 +9,20 @@ sudo service docker start # start docker service
 sudo usermod -aG docker $USER # allow docker commands without sudo
 ```
 
+Useful commands:
+
+````powershell
+docker stop $(docker ps -q)
+docker rmi $(docker images -q)
+````
+
 ## Docker Compose
+
+```bash
+sudo apt install docker-compose
+```
+
+Alternativ:
 
 ```bash
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.32.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose # get docker compose

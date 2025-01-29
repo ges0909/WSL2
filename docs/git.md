@@ -1,6 +1,7 @@
 # Git
 
 ```bash
+git version # check if already installed
 sudo apt-get install git # install git
 git config --global user.name "Vorname Nachname"
 git config --global user.email "vorname.nachname@sti.valantic.com"

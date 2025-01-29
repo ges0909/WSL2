@@ -1,5 +1,7 @@
 # WSL2 and Linux
 
+## WSL2
+
 ```powershell
 wsl --install # install wsl
 wsl --uninstall # uninstall wsl
@@ -9,6 +11,8 @@ wsl --uninstall # uninstall wsl
 wsl --list --verbose # show installed distros
 wsl --set-default Ubuntu-24.04 # set default distro
 ```
+
+## Linux
 
 ```powershell
 wsl --list --online # list installable linux distros
@@ -20,6 +24,7 @@ wsl --unregister Ubuntu-24.04 # uninstall distro
 ```powershell
 wsl # run default distro
 wsl -d Ubuntu-24.04 # run distro
+wsl --shutdown # stop running
 ```
 
 ```bash
