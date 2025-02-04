@@ -7,7 +7,20 @@ winget install RedHat.Podman
 podman --help # check installation
 ```
 
-Useful commands:
+## Podman Compose
+
+```powershell
+# pip3 install podman-compose # requires local python installationpy
+winget install Docker.DockerCompose
+```
+
+## Podman Desktop
+
+```powershell
+winget install RedHat.Podman-Desktop
+```
+
+## Useful Commands
 
 ```powershell
 podman machine init # create a machine backed by WSL2
@@ -22,7 +35,7 @@ podman machine stop
 ```
 
 ```powershell
-podman ps # show running containers
+podman ps # show running containerspwd
 ```
 
 You can use `docker-compose.yml`.
@@ -32,10 +45,4 @@ podman compose up -d
 podman compose stop
 podman compose up -d helloworld
 podman compose stop helloworld
-```
-
-## Podman Desktop
-
-```powershell
-winget install RedHat.Podman-Desktop
 ```

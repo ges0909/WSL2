@@ -1,4 +1,4 @@
-## Optional: X-Server and IntelliJ IDEA
+## Optional: X-Server and IntelliJ
 
 ## X-Server
 
@@ -6,7 +6,7 @@
 winget install marha.VcXsrv
 ```
 
-## IntelliJ IDEA
+## IntelliJ
 
 ```bash
 wget https://download.jetbrains.com/idea/ideaIU-2024.3.tar.gz
